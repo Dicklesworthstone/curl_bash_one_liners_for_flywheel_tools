@@ -12,129 +12,292 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-**One-liner installation commands for the Agent Flywheel ecosystem.**<br>
-All commands use non-interactive modes and include cache busters for fresh downloads.
-
-[AI Orchestration](#-ai-agent-orchestration) · [Memory & Search](#-memory--search) · [Security](#-security--safety) · [Dev Tools](#-developer-tools) · [Prompts](#-prompts--skills) · [Specialized](#-specialized-tools)
+**One-liner installation commands for the Agent Flywheel ecosystem.**
 
 </div>
 
 ---
 
 > [!TIP]
-> **New to the ecosystem?** Start with [ACFS](#acfs) to install everything at once, or pick individual tools below.
+> **New to the ecosystem?** Start with **ACFS** to install everything at once.
 
 ---
 
 ## 🤖 AI Agent Orchestration
 
-Tools for spawning, managing, and coordinating multiple AI coding agents.
+<table>
+<tr>
+<td width="50%">
 
-| Tool | One-Liner | Description |
-|:-----|:----------|:------------|
-| <a id="acfs"></a>**[ACFS](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/agentic_coding_flywheel_setup/main/install.sh?$(date +%s)" \| bash -s -- --yes --mode vibe` | Sets up 30+ tools for multi-agent AI coding workflows including three AI coding agents and all dependencies. |
-| **[NTM](https://github.com/Dicklesworthstone/ntm)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/ntm/main/install.sh?$(date +%s)" \| bash -s -- --easy-mode` | Powerful tmux session management for orchestrating multiple AI coding agents across tiled panes with command palette. |
-| **[Useful Tmux](https://github.com/Dicklesworthstone/useful_tmux_commands)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/useful_tmux_commands/main/add_useful_tmux_commands_to_zshrc.sh?$(date +%s)" \| bash -s -- --easy` | Tmux session management toolkit with shell functions for orchestrating AI coding agents, spawning sessions, and broadcasting prompts. |
-| **[Brenner Bot](https://github.com/Dicklesworthstone/brenner_bot)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/brenner_bot/main/install.sh?$(date +%s)" \| bash -s -- --easy-mode --verify` | AI coding agent framework with easy-mode installation providing minimal prompts and sensible defaults. |
-| **[Agent Flywheel Skills](https://github.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations/main/install.sh?$(date +%s)" \| bash -s -- --all` | Installs all Clawdbot skills for workflow automation, cloud tools, and development utilities in one command. |
+**[ACFS](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup)** — Full multi-agent setup
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/agentic_coding_flywheel_setup/main/install.sh?$(date +%s)" | bash -s -- --yes --mode vibe
+```
+
+</td>
+<td width="50%">
+
+**[NTM](https://github.com/Dicklesworthstone/ntm)** — Tmux session manager
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/ntm/main/install.sh?$(date +%s)" | bash -s -- --easy-mode
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Useful Tmux](https://github.com/Dicklesworthstone/useful_tmux_commands)** — Shell functions for tmux
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/useful_tmux_commands/main/add_useful_tmux_commands_to_zshrc.sh?$(date +%s)" | bash -s -- --easy
+```
+
+</td>
+<td width="50%">
+
+**[Brenner Bot](https://github.com/Dicklesworthstone/brenner_bot)** — AI coding agent framework
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/brenner_bot/main/install.sh?$(date +%s)" | bash -s -- --easy-mode --verify
+```
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**[Agent Flywheel Skills](https://github.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations)** — All Clawdbot skills in one command
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations/main/install.sh?$(date +%s)" | bash -s -- --all
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧠 Memory & Search
 
-Persistent memory and cross-agent session search capabilities.
+<table>
+<tr>
+<td width="50%">
 
-| Tool | One-Liner | Description |
-|:-----|:----------|:------------|
-| **[CASS](https://github.com/Dicklesworthstone/coding_agent_session_search)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_session_search/main/install.sh?$(date +%s)" \| bash -s -- --easy-mode --verify` | TUI for searching unified history across multiple coding agents (Claude Code, Codex, Gemini, etc.) with semantic search. |
-| **[CASS Memory](https://github.com/Dicklesworthstone/cass_memory_system)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/cass_memory_system/main/install.sh?$(date +%s)" \| bash -s -- --easy-mode --verify` | Procedural memory system that transforms scattered AI agent sessions into persistent, cross-agent memory with confidence-tracked rules. |
-| **[Beads Viewer](https://github.com/Dicklesworthstone/beads_viewer)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/beads_viewer/main/install.sh?$(date +%s)" \| bash` | Interactive TUI for viewing and navigating project dependency graphs and task management data from Beads tracker format. |
+**[CASS](https://github.com/Dicklesworthstone/coding_agent_session_search)** — Cross-agent session search
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_session_search/main/install.sh?$(date +%s)" | bash -s -- --easy-mode --verify
+```
+
+</td>
+<td width="50%">
+
+**[CASS Memory](https://github.com/Dicklesworthstone/cass_memory_system)** — Procedural memory system
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/cass_memory_system/main/install.sh?$(date +%s)" | bash -s -- --easy-mode --verify
+```
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**[Beads Viewer](https://github.com/Dicklesworthstone/beads_viewer)** — Dependency graph TUI
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/beads_viewer/main/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🛡️ Security & Safety
 
-Protection against prompt injection, destructive commands, and unsafe operations.
+<table>
+<tr>
+<td width="50%">
 
-| Tool | One-Liner | Description |
-|:-----|:----------|:------------|
-| **[DCG](https://github.com/Dicklesworthstone/destructive_command_guard)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/destructive_command_guard/master/install.sh?$(date +%s)" \| bash -s -- --easy-mode` | Security hook that blocks dangerous commands before execution, auto-configures Claude Code hooks and PATH. |
-| **[ACIP](https://github.com/Dicklesworthstone/acip)** | `curl -fsSL -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/Dicklesworthstone/acip/contents/integrations/clawdbot/install.sh?ref=main&ts=$(date +%s)" \| bash` | Installs cognitive defenses against prompt injection attacks for Clawdbot, establishing trust boundaries and protection against attack patterns. |
-| **[SLB](https://github.com/Dicklesworthstone/slb)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/slb/main/scripts/install.sh?$(date +%s)" \| bash` | Two-person rule CLI for running potentially destructive commands from AI coding agents, requiring peer review before execution. |
+**[DCG](https://github.com/Dicklesworthstone/destructive_command_guard)** — Blocks dangerous commands
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/destructive_command_guard/master/install.sh?$(date +%s)" | bash -s -- --easy-mode
+```
+
+</td>
+<td width="50%">
+
+**[SLB](https://github.com/Dicklesworthstone/slb)** — Two-person rule for risky commands
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/slb/main/scripts/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**[ACIP](https://github.com/Dicklesworthstone/acip)** — Prompt injection defense
+
+```bash
+curl -fsSL -H "Accept: application/vnd.github.raw" \
+  "https://api.github.com/repos/Dicklesworthstone/acip/contents/integrations/clawdbot/install.sh?ref=main&ts=$(date +%s)" | bash
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🔧 Developer Tools
 
-Utilities for file operations, code formatting, system management, and repo sync.
+<table>
+<tr>
+<td width="50%">
 
-| Tool | One-Liner | Description |
-|:-----|:----------|:------------|
-| **[XF](https://github.com/Dicklesworthstone/xf)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/xf/main/install.sh?$(date +%s)" \| bash -s -- --easy-mode` | Comprehensive CLI for file operations and transformations with automatic configuration and sensible defaults. |
-| **[Source2Prompt](https://github.com/Dicklesworthstone/source_to_prompt_tui)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/source_to_prompt_tui/main/install.sh?$(date +%s)" \| bash` | Terminal UI for combining source code files into LLM-ready prompts with real-time token counting and structured XML output. |
-| **[Repo Updater](https://github.com/Dicklesworthstone/repo_updater)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/repo_updater/main/install.sh?$(date +%s)" \| bash` | Keeps multiple GitHub repositories in sync - clone missing repos, pull updates, detect conflicts with actionable resolution commands. |
-| **[SRPS](https://github.com/Dicklesworthstone/system_resource_protection_script)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/system_resource_protection_script/main/install.sh?$(date +%s)" \| bash` | Keeps Linux dev boxes responsive under load with priority tuning, sysctl tweaks, and a polished TUI monitor. |
-| **[CAAM](https://github.com/Dicklesworthstone/coding_agent_account_manager)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_account_manager/main/install.sh?$(date +%s)" \| bash` | Manages authentication across multiple AI coding agents with automatic platform detection and setup. |
+**[XF](https://github.com/Dicklesworthstone/xf)** — File operations CLI
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/xf/main/install.sh?$(date +%s)" | bash -s -- --easy-mode
+```
+
+</td>
+<td width="50%">
+
+**[Source2Prompt](https://github.com/Dicklesworthstone/source_to_prompt_tui)** — Code to LLM prompt TUI
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/source_to_prompt_tui/main/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Repo Updater](https://github.com/Dicklesworthstone/repo_updater)** — Sync multiple repos
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/repo_updater/main/install.sh?$(date +%s)" | bash
+```
+
+</td>
+<td width="50%">
+
+**[SRPS](https://github.com/Dicklesworthstone/system_resource_protection_script)** — Keep Linux responsive
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/system_resource_protection_script/main/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**[CAAM](https://github.com/Dicklesworthstone/coding_agent_account_manager)** — Manage AI agent auth
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_account_manager/main/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## ✨ Prompts & Skills
 
-Curated prompt libraries and Claude Code skill installers.
+<table>
+<tr>
+<td width="50%">
 
-| Tool | One-Liner | Description |
-|:-----|:----------|:------------|
-| **[jfp CLI](https://github.com/Dicklesworthstone/jeffreysprompts.com)** | `curl -fsSL "https://jeffreysprompts.com/install-cli.sh?$(date +%s)" \| bash` | Agent-optimized CLI for discovering, searching, and installing curated AI coding prompts as Claude Code skills. |
-| **[JeffreysPrompts Skills](https://github.com/Dicklesworthstone/jeffreysprompts.com)** | `curl -fsSL "https://jeffreysprompts.com/install.sh?$(date +%s)" \| bash` | Bulk installs all JeffreysPrompts prompts directly as Claude Code skills to your local skills directory. |
+**[jfp CLI](https://github.com/Dicklesworthstone/jeffreysprompts.com)** — Search & install prompts
+
+```bash
+curl -fsSL "https://jeffreysprompts.com/install-cli.sh?$(date +%s)" | bash
+```
+
+</td>
+<td width="50%">
+
+**[JeffreysPrompts Skills](https://github.com/Dicklesworthstone/jeffreysprompts.com)** — Bulk install all skills
+
+```bash
+curl -fsSL "https://jeffreysprompts.com/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🔬 Specialized Tools
 
-Domain-specific utilities and integrations.
+<table>
+<tr>
+<td width="50%">
 
-| Tool | One-Liner | Description |
-|:-----|:----------|:------------|
-| **[MCP Agent Mail](https://github.com/Dicklesworthstone/mcp_agent_mail)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/mcp_agent_mail/main/scripts/install.sh?$(date +%s)" \| bash -s -- --yes` | Sets up MCP Agent Mail server with auto-detection of coding agent integrations, starts HTTP server, and installs Beads tools. |
-| **[APR](https://github.com/Dicklesworthstone/automated_plan_reviser_pro)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/automated_plan_reviser_pro/main/install.sh?$(date +%s)" \| bash` | Automates iterative specification refinement using GPT Pro Extended Reasoning with background processing and session management. |
-| **[Phage Explorer](https://github.com/Dicklesworthstone/phage_explorer)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/phage_explorer/main/install.sh?$(date +%s)" \| bash -s -- --with-database` | TUI for browsing, visualizing, and analyzing bacteriophage genetic data with color-coded sequences and 3D structure viewing. |
-| **[GIIL](https://github.com/Dicklesworthstone/giil)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/giil/main/install.sh?$(date +%s)" \| bash` | Downloads full-resolution images from cloud photo shares (iCloud, Dropbox, Google Photos, Google Drive) via browser automation. |
-| **[Chat to File](https://github.com/Dicklesworthstone/chat_shared_conversation_to_file)** | `curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/chat_shared_conversation_to_file/main/install.sh?$(date +%s)" \| bash` | Exports shared ChatGPT conversations to local files with automatic platform detection and dependency installation. |
+**[MCP Agent Mail](https://github.com/Dicklesworthstone/mcp_agent_mail)** — MCP server + Beads tools
 
----
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/mcp_agent_mail/main/scripts/install.sh?$(date +%s)" | bash -s -- --yes
+```
 
-<details>
-<summary><b>📋 Full Alphabetical List</b></summary>
+</td>
+<td width="50%">
 
-<br>
+**[APR](https://github.com/Dicklesworthstone/automated_plan_reviser_pro)** — Iterative spec refinement
 
-| # | Tool | Category |
-|:-:|:-----|:---------|
-| 1 | [ACFS](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | AI Orchestration |
-| 2 | [ACIP](https://github.com/Dicklesworthstone/acip) | Security |
-| 3 | [Agent Flywheel Skills](https://github.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations) | AI Orchestration |
-| 4 | [APR](https://github.com/Dicklesworthstone/automated_plan_reviser_pro) | Specialized |
-| 5 | [Beads Viewer](https://github.com/Dicklesworthstone/beads_viewer) | Memory & Search |
-| 6 | [Brenner Bot](https://github.com/Dicklesworthstone/brenner_bot) | AI Orchestration |
-| 7 | [CAAM](https://github.com/Dicklesworthstone/coding_agent_account_manager) | Developer Tools |
-| 8 | [CASS](https://github.com/Dicklesworthstone/coding_agent_session_search) | Memory & Search |
-| 9 | [CASS Memory](https://github.com/Dicklesworthstone/cass_memory_system) | Memory & Search |
-| 10 | [Chat to File](https://github.com/Dicklesworthstone/chat_shared_conversation_to_file) | Specialized |
-| 11 | [DCG](https://github.com/Dicklesworthstone/destructive_command_guard) | Security |
-| 12 | [GIIL](https://github.com/Dicklesworthstone/giil) | Specialized |
-| 13 | [jfp CLI](https://github.com/Dicklesworthstone/jeffreysprompts.com) | Prompts & Skills |
-| 14 | [JeffreysPrompts Skills](https://github.com/Dicklesworthstone/jeffreysprompts.com) | Prompts & Skills |
-| 15 | [MCP Agent Mail](https://github.com/Dicklesworthstone/mcp_agent_mail) | Specialized |
-| 16 | [NTM](https://github.com/Dicklesworthstone/ntm) | AI Orchestration |
-| 17 | [Phage Explorer](https://github.com/Dicklesworthstone/phage_explorer) | Specialized |
-| 18 | [Repo Updater](https://github.com/Dicklesworthstone/repo_updater) | Developer Tools |
-| 19 | [SLB](https://github.com/Dicklesworthstone/slb) | Security |
-| 20 | [Source2Prompt](https://github.com/Dicklesworthstone/source_to_prompt_tui) | Developer Tools |
-| 21 | [SRPS](https://github.com/Dicklesworthstone/system_resource_protection_script) | Developer Tools |
-| 22 | [Useful Tmux](https://github.com/Dicklesworthstone/useful_tmux_commands) | AI Orchestration |
-| 23 | [XF](https://github.com/Dicklesworthstone/xf) | Developer Tools |
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/automated_plan_reviser_pro/main/install.sh?$(date +%s)" | bash
+```
 
-</details>
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Phage Explorer](https://github.com/Dicklesworthstone/phage_explorer)** — Bacteriophage data TUI
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/phage_explorer/main/install.sh?$(date +%s)" | bash -s -- --with-database
+```
+
+</td>
+<td width="50%">
+
+**[GIIL](https://github.com/Dicklesworthstone/giil)** — Download cloud photos
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/giil/main/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**[Chat to File](https://github.com/Dicklesworthstone/chat_shared_conversation_to_file)** — Export ChatGPT conversations
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/chat_shared_conversation_to_file/main/install.sh?$(date +%s)" | bash
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -178,6 +341,30 @@ Domain-specific utilities and integrations.
 </table>
 
 </div>
+
+---
+
+<details>
+<summary><b>📋 Quick Reference Index</b></summary>
+
+<br>
+
+| Tool | Category | Tool | Category |
+|:-----|:---------|:-----|:---------|
+| [ACFS](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | AI Orchestration | [MCP Agent Mail](https://github.com/Dicklesworthstone/mcp_agent_mail) | Specialized |
+| [ACIP](https://github.com/Dicklesworthstone/acip) | Security | [NTM](https://github.com/Dicklesworthstone/ntm) | AI Orchestration |
+| [Agent Flywheel Skills](https://github.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations) | AI Orchestration | [Phage Explorer](https://github.com/Dicklesworthstone/phage_explorer) | Specialized |
+| [APR](https://github.com/Dicklesworthstone/automated_plan_reviser_pro) | Specialized | [Repo Updater](https://github.com/Dicklesworthstone/repo_updater) | Dev Tools |
+| [Beads Viewer](https://github.com/Dicklesworthstone/beads_viewer) | Memory & Search | [SLB](https://github.com/Dicklesworthstone/slb) | Security |
+| [Brenner Bot](https://github.com/Dicklesworthstone/brenner_bot) | AI Orchestration | [Source2Prompt](https://github.com/Dicklesworthstone/source_to_prompt_tui) | Dev Tools |
+| [CAAM](https://github.com/Dicklesworthstone/coding_agent_account_manager) | Dev Tools | [SRPS](https://github.com/Dicklesworthstone/system_resource_protection_script) | Dev Tools |
+| [CASS](https://github.com/Dicklesworthstone/coding_agent_session_search) | Memory & Search | [Useful Tmux](https://github.com/Dicklesworthstone/useful_tmux_commands) | AI Orchestration |
+| [CASS Memory](https://github.com/Dicklesworthstone/cass_memory_system) | Memory & Search | [XF](https://github.com/Dicklesworthstone/xf) | Dev Tools |
+| [Chat to File](https://github.com/Dicklesworthstone/chat_shared_conversation_to_file) | Specialized | [jfp CLI](https://github.com/Dicklesworthstone/jeffreysprompts.com) | Prompts |
+| [DCG](https://github.com/Dicklesworthstone/destructive_command_guard) | Security | [JeffreysPrompts Skills](https://github.com/Dicklesworthstone/jeffreysprompts.com) | Prompts |
+| [GIIL](https://github.com/Dicklesworthstone/giil) | Specialized | | |
+
+</details>
 
 ---
 

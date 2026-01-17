@@ -2,6 +2,8 @@
 
 # Curl One-Liners for Flywheel Tools
 
+<p><sub>One-line installers for the Flywheel toolchain. Copy, paste, and go.</sub></p>
+
 [![GitHub](https://img.shields.io/badge/GitHub-Dicklesworthstone-181717?style=for-the-badge&logo=github)](https://github.com/Dicklesworthstone)
 [![X](https://img.shields.io/badge/X-@doodlestein-000000?style=for-the-badge&logo=x)](https://x.com/doodlestein)
 [![Discord](https://img.shields.io/badge/Discord-Flywheel_Hub-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://t.co/kGjc2TQptc)
@@ -23,11 +25,6 @@ curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/agentic_coding_f
 [NTM](https://github.com/Dicklesworthstone/ntm) · Tmux session manager
 ```bash
 curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/ntm/main/install.sh?$(date +%s)" | bash -s -- --easy-mode
-```
-
-[Useful Tmux](https://github.com/Dicklesworthstone/useful_tmux_commands) · Shell functions
-```bash
-curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/useful_tmux_commands/main/add_useful_tmux_commands_to_zshrc.sh?$(date +%s)" | bash -s -- --easy
 ```
 
 [Brenner Bot](https://github.com/Dicklesworthstone/brenner_bot) · AI agent framework
@@ -116,11 +113,6 @@ curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_acc
 curl -fsSL "https://jeffreysprompts.com/install-cli.sh?$(date +%s)" | bash
 ```
 
-[JeffreysPrompts Skills](https://github.com/Dicklesworthstone/jeffreysprompts.com) · Install all skills
-```bash
-curl -fsSL "https://jeffreysprompts.com/install.sh?$(date +%s)" | bash
-```
-
 ---
 
 ### 🔬 Specialized
@@ -152,55 +144,52 @@ curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/chat_shared_conv
 
 ---
 
-<details>
-<summary>🌐 Website Previews</summary>
+## 🔭 Showcase
+
+<div align="center">
+<sub>If you only scroll to one section, make it this one. Click any image to open.</sub>
+</div>
 
 <br>
+
+### 🌐 Website Previews
 
 <div align="center">
 <table>
 <tr>
-<td align="center"><a href="https://agent-flywheel.com/tldr"><img src="https://agent-flywheel.com/opengraph-image?895f31c767058372" alt="Agent Flywheel" width="400"></a><br><b>Agent Flywheel</b></td>
-<td align="center"><a href="https://brennerbot.org"><img src="https://brennerbot.org/opengraph-image?a523997cd907b722" alt="Brenner Bot" width="400"></a><br><b>Brenner Bot</b></td>
+<td align="center" width="50%"><a href="https://agent-flywheel.com/tldr"><img src="https://agent-flywheel.com/opengraph-image?895f31c767058372" alt="Agent Flywheel" width="420"></a><br><b>Agent Flywheel</b></td>
+<td align="center" width="50%"><a href="https://brennerbot.org"><img src="https://brennerbot.org/opengraph-image?a523997cd907b722" alt="Brenner Bot" width="420"></a><br><b>Brenner Bot</b></td>
 </tr>
 <tr>
-<td align="center"><a href="https://jeffreysprompts.com"><img src="https://jeffreysprompts.com/opengraph-image?ea14d913901310ce" alt="Jeffrey's Prompts" width="400"></a><br><b>Jeffrey's Prompts</b></td>
-<td align="center"><a href="https://jeffreyemanuel.com"><img src="https://jeffreyemanuel.com/opengraph-image?52ef97c0151f4368" alt="Jeffrey Emanuel" width="400"></a><br><b>Jeffrey Emanuel</b></td>
+<td align="center" width="50%"><a href="https://jeffreysprompts.com"><img src="https://jeffreysprompts.com/opengraph-image?ea14d913901310ce" alt="Jeffrey's Prompts" width="420"></a><br><b>Jeffrey's Prompts</b></td>
+<td align="center" width="50%"><a href="https://jeffreyemanuel.com"><img src="https://jeffreyemanuel.com/opengraph-image?52ef97c0151f4368" alt="Jeffrey Emanuel" width="420"></a><br><b>Jeffrey Emanuel</b></td>
 </tr>
 </table>
 </div>
 
-</details>
-
-<details>
-<summary>🎴 Repository Cards</summary>
-
 <br>
 
+### 🎴 Repository Cards
+
 <div align="center">
-
-<a href="https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup"><img src="https://socialify.git.ci/Dicklesworthstone/agentic_coding_flywheel_setup/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="ACFS" width="600"></a>
-
-<a href="https://github.com/Dicklesworthstone/ntm"><img src="https://socialify.git.ci/Dicklesworthstone/ntm/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="NTM" width="600"></a>
-
-<a href="https://github.com/Dicklesworthstone/brenner_bot"><img src="https://socialify.git.ci/Dicklesworthstone/brenner_bot/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="Brenner Bot" width="600"></a>
-
-<a href="https://github.com/Dicklesworthstone/coding_agent_session_search"><img src="https://socialify.git.ci/Dicklesworthstone/coding_agent_session_search/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="CASS" width="600"></a>
-
-<a href="https://github.com/Dicklesworthstone/cass_memory_system"><img src="https://socialify.git.ci/Dicklesworthstone/cass_memory_system/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="CASS Memory" width="600"></a>
-
-<a href="https://github.com/Dicklesworthstone/destructive_command_guard"><img src="https://socialify.git.ci/Dicklesworthstone/destructive_command_guard/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="DCG" width="600"></a>
-
-<a href="https://github.com/Dicklesworthstone/xf"><img src="https://socialify.git.ci/Dicklesworthstone/xf/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="XF" width="600"></a>
-
-<a href="https://github.com/Dicklesworthstone/jeffreysprompts.com"><img src="https://socialify.git.ci/Dicklesworthstone/jeffreysprompts.com/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="JeffreysPrompts" width="600"></a>
-
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup"><img src="https://socialify.git.ci/Dicklesworthstone/agentic_coding_flywheel_setup/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="ACFS" width="480"></a><br><b>ACFS</b></td>
+<td align="center"><a href="https://github.com/Dicklesworthstone/ntm"><img src="https://socialify.git.ci/Dicklesworthstone/ntm/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="NTM" width="480"></a><br><b>NTM</b></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Dicklesworthstone/brenner_bot"><img src="https://socialify.git.ci/Dicklesworthstone/brenner_bot/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="Brenner Bot" width="480"></a><br><b>Brenner Bot</b></td>
+<td align="center"><a href="https://github.com/Dicklesworthstone/coding_agent_session_search"><img src="https://socialify.git.ci/Dicklesworthstone/coding_agent_session_search/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="CASS" width="480"></a><br><b>CASS</b></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Dicklesworthstone/cass_memory_system"><img src="https://socialify.git.ci/Dicklesworthstone/cass_memory_system/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="CASS Memory" width="480"></a><br><b>CASS Memory</b></td>
+<td align="center"><a href="https://github.com/Dicklesworthstone/destructive_command_guard"><img src="https://socialify.git.ci/Dicklesworthstone/destructive_command_guard/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="DCG" width="480"></a><br><b>DCG</b></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Dicklesworthstone/xf"><img src="https://socialify.git.ci/Dicklesworthstone/xf/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="XF" width="480"></a><br><b>XF</b></td>
+<td align="center"><a href="https://github.com/Dicklesworthstone/jeffreysprompts.com"><img src="https://socialify.git.ci/Dicklesworthstone/jeffreysprompts.com/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark" alt="JeffreysPrompts" width="480"></a><br><b>JeffreysPrompts</b></td>
+</tr>
+</table>
 </div>
-
-</details>
 
 ---
-
-<div align="center">
-<sub><b>Made with <a href="https://claude.ai/code">Claude Code</a></b> · <a href="https://t.co/kGjc2TQptc">Discord</a></sub>
-</div>
